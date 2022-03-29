@@ -13,7 +13,8 @@ To run blockdss package you first need to download the dss.c.64.exe. First creat
 |       \---dss.c.64.exe
 ```
 
-You can copy the zipped file into the input folder from your R console directly, using the following code (after running the code, you still are requested to unzip the file manually):
+You can copy the zipped file into the input folder from your R console directly, using the following code^[
+after running the code, you still are requested to unzip the file manually]:
 
 ```
 # create folder input
