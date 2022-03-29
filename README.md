@@ -5,22 +5,24 @@ dss.c.64.exe is a geostatistics and geosciences modeling stand-alone software. I
 
 # Download instructions
 
-To run blockdss package you first need to download the dss.c.64.exe. First create a folder called "input" in the working directory, copy the zipped dss.c.64.exe inside and unzip the downloaded file into the same folder. The final folder structure should be as follows:
+To run blockdss package you first need to download the dss.c.64.exe performing the following steps: first create a folder called "input" in the working directory, then copy the zipped dss.c.64.exe inside and unzip the downloaded file into the same folder. You may execute these steps manually or from your R console directly, using the following code :
 
-```
-+---your R project
-|   \---input
-|       \---dss.c.64.exe
-```
-
-You can copy the zipped file into the input folder from your R console directly, using the following code (please remember to unzip the file after running the code below):
-
-```
+```r
 # create folder input
 inp <- "./input/"
 if(!file.exists(inp)) dir.create(inp, recursive = TRUE)
 
 # download dss.c.64.exe.zip from github
 gitURL <- "https://github.com/maluicr/dss/raw/main/DSS.C.64.exe.zip"
-utils::download.file(url = gitURL, destfile = paste0(inp, "DSS.C.64.exe.zip"))
+utils::download.file(url = gitURL, destfile = file.path(inp, "DSS.C.64.exe.zip"))
+```
+
+Please remember to unzip the file manually after running the code. 
+
+The final folder structure should be as follows:
+
+```
++---your R project
+|   \---input
+|       \---dss.c.64.exe
 ```
