@@ -15,14 +15,15 @@ if(!file.exists(inp)) dir.create(inp, recursive = TRUE)
 # download dss.c.64.exe.zip from github
 gitURL <- "https://github.com/maluicr/dss/raw/main/DSS.C.64.exe.zip"
 utils::download.file(url = gitURL, destfile = file.path(inp, "DSS.C.64.exe.zip"))
-```
 
-Please remember to unzip the file manually after running the code. 
+# unzip file
+unzip(file.path(inp, "DSS.C.64.exe.zip"), exdir = inp)
+```
 
 The final folder structure should be as follows:
 
 ```
-+---your R project
++---your R project (working directory)
 |   \---input
 |       \---dss.c.64.exe
 ```
