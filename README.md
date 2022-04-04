@@ -25,11 +25,3 @@ utils::download.file(url = gitURL, destfile = file.path(inp, "DSS.C.64.exe.zip")
 # unzip file
 unzip(file.path(inp, "DSS.C.64.exe.zip"), exdir = inp)
 ```
-
-Please check your final folder structure, it should be as follows:
-
-```
-+---your R project (working directory)
-|   \---input
-|       \---dss.c.64.exe
-```
