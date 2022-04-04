@@ -1,7 +1,7 @@
 
 # dss.c.64.exe to run with blockdss R package
 
-dss.c.64.exe is a geostatistics and geosciences modeling stand-alone software developed at CERENA (https://cerena.pt/) research center. It has several functions to manipulate 2d-3d data as well as providing univariate and multivariate analysis. blockdss package (https://github.com/maluicr/blockdss) is a R-wrapper running block simulation algorithm from dss.c.64.exe.
+dss.c.64.exe is a geostatistics and geosciences modeling stand-alone software developed at CERENA (https://cerena.pt/) research center. blockdss package (https://github.com/maluicr/blockdss) is a R-wrapper running block simulation algorithm from dss.c.64.exe.
 
 # Download instructions
 
