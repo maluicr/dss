@@ -1,5 +1,5 @@
 
-# dss.c.64.exe to run with blockdss R package
+# dss.c.64.exe to run with EpiGeostats R package
 
 dss.c.64.exe is a geostatistics and geosciences modeling stand-alone software developed at CERENA (https://cerena.pt/) research center. EpiGeostats package (https://github.com/maluicr/EpiGeostats) is a R-wrapper running block simulation algorithm from dss.c.64.exe.
 
