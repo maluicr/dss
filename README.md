@@ -5,7 +5,7 @@ dss.c.64.exe is a geostatistics and geosciences modeling stand-alone software de
 
 # Download instructions
 
-To run EpiGeostats R package you first need to download the dss.c.64.exe. Follow these general steps:
+To run EpiGeostats R package you first need to download the dss.c.64.exe, following these steps:
 
 1. create a folder called "input" in the working directory, 
 2. copy the zipped dss.c.64.exe inside,
@@ -25,3 +25,4 @@ utils::download.file(url = gitURL, destfile = file.path(inp, "DSS.C.64.exe.zip")
 # unzip file
 unzip(file.path(inp, "DSS.C.64.exe.zip"), exdir = inp)
 ```
+
