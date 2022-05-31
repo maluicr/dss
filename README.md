@@ -1,11 +1,11 @@
 
 # dss.c.64.exe to run with blockdss R package
 
-dss.c.64.exe is a geostatistics and geosciences modeling stand-alone software developed at CERENA (https://cerena.pt/) research center. blockdss package (https://github.com/maluicr/blockdss) is a R-wrapper running block simulation algorithm from dss.c.64.exe.
+dss.c.64.exe is a geostatistics and geosciences modeling stand-alone software developed at CERENA (https://cerena.pt/) research center. EpiGeostats package (https://github.com/maluicr/EpiGeostats) is a R-wrapper running block simulation algorithm from dss.c.64.exe.
 
 # Download instructions
 
-To run blockdss R package you first need to download the dss.c.64.exe. Follow these general steps:
+To run EpiGeostats R package you first need to download the dss.c.64.exe. Follow these general steps:
 
 1. create a folder called "input" in the working directory, 
 2. copy the zipped dss.c.64.exe inside,
